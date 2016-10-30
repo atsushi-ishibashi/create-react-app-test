@@ -1,3 +1,16 @@
+
+## 動かし方(とりあえずの)
+### ローカルにnode_moduleがない場合 or package.jsonが更新された場合
+`npm install`
+### コード編集後の動かし方
+#### `npm start`  
+`src/` 下のファイルでブラウザで実行される。ブラウザを起動しながら修正可能
+#### `npm run build`
+deploy用に`public/` を作成。
+#### `npm test`
+`*.test.js` を探してそれらを実行。
+
+***
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
