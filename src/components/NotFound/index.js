@@ -5,7 +5,7 @@ export default class NotFound extends Component {
     return (
       <div className="NotFound">
         <h1>
-          404 <small>Not Found :(</small>
+          404 <small>Not Found...</small>
         </h1>
       </div>
     );
