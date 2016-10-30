@@ -6,7 +6,7 @@
 #### `npm start`  
 `src/` 下のファイルでブラウザで実行される。ブラウザを起動しながら修正可能
 #### `npm run build`
-deploy用に`public/` を作成。
+deploy用に`build/` を作成。
 #### `npm test`
 `*.test.js` を探してそれらを実行。
 
